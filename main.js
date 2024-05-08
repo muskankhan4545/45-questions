@@ -1,13 +1,8 @@
-//Excercise#03//
-//Name Cases//
-//Store a person's name in a variable and then print that person's name in lowercase, uppercase and titlecase.//
-var personname = "muskan khan";
-//lowercase
-console.log(personname.toLowerCase());
-//uppercase
-console.log(personname.toUpperCase());
-//titlecase
-var firstletter = personname.charAt(0).toUpperCase();
-var restletter = personname.slice(1).toLowerCase();
-var titlecase = firstletter + restletter;
-console.log(titlecase);
+//Excercise#04//
+//Famous Quote 2:
+/*
+Find a quote from a famous person you admire.print the quote and the name of its author.Your output should look
+something like the following ,including the quotation marks:
+Albert Einstein once said,"A person who never made a mistake never tried anything new."*/
+var famousquote = "Albert Einstein once said, \"A person who never made a mistake never tried anything new.\"";
+console.log(famousquote);
